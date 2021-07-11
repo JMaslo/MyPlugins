@@ -1,0 +1,6 @@
+name: Happy_Blocks
+version: 1.2
+main: me.devik.happy_blocks.Happy_Blocks
+api-version: 1.17
+authors: [ Devik ]
+description: My plugin for blocks
