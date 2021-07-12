@@ -8,26 +8,28 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 
-import static org.bukkit.Material.*;
+
 
 public class ClickEvent implements Listener {
+
+
 
     @EventHandler
     public void onMenuClick(InventoryClickEvent e){
 
-        ItemStack helma = new ItemStack(LEATHER_HELMET);
-        ItemStack chestplate = new ItemStack(LEATHER_CHESTPLATE);
-        ItemStack kalhoty = new ItemStack(LEATHER_LEGGINGS);
-        ItemStack boty = new ItemStack(LEATHER_BOOTS);
+        ItemStack helma = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack chestplate = new ItemStack(Material.LEATHER_CHESTPLATE);
+        ItemStack kalhoty = new ItemStack(Material.LEATHER_LEGGINGS);
+        ItemStack boty = new ItemStack(Material.LEATHER_BOOTS);
 
-        ItemStack sword = new ItemStack(STONE_SWORD);
-        ItemStack pickaxe = new ItemStack(STONE_PICKAXE);
-        ItemStack axe = new ItemStack(STONE_AXE);
-        ItemStack shovel = new ItemStack(STONE_SHOVEL);
-        ItemStack hoe = new ItemStack(STONE_HOE);
+        ItemStack sword = new ItemStack(Material.STONE_SWORD);
+        ItemStack pickaxe = new ItemStack(Material.STONE_PICKAXE);
+        ItemStack axe = new ItemStack(Material.STONE_AXE);
+        ItemStack shovel = new ItemStack(Material.STONE_SHOVEL);
+        ItemStack hoe = new ItemStack(Material.STONE_HOE);
 
-        ItemStack bread = new ItemStack(BREAD, 64);
-        ItemStack fish = new ItemStack(SALMON, 64);
+        ItemStack bread = new ItemStack(Material.BREAD, 64);
+        ItemStack fish = new ItemStack(Material.SALMON, 64);
 
         Player p = (Player) e.getWhoClicked();
 
