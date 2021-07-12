@@ -1,0 +1,10 @@
+name: StarterKit
+version: ${project.version}
+main: me.devik.starterkit.StarterKit
+api-version: 1.17
+authors: [ Devik ]
+description: FirtJoinKit
+commands:
+  starterkit:
+    description: StarterKit
+    usage: /<command>
