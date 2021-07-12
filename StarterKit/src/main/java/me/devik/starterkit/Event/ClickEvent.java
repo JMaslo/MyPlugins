@@ -26,8 +26,8 @@ public class ClickEvent implements Listener {
         ItemStack shovel = new ItemStack(STONE_SHOVEL);
         ItemStack hoe = new ItemStack(STONE_HOE);
 
-        ItemStack bread = new ItemStack(BREAD);
-        ItemStack fish = new ItemStack(SALMON);
+        ItemStack bread = new ItemStack(BREAD, 64);
+        ItemStack fish = new ItemStack(SALMON, 64);
 
         Player p = (Player) e.getWhoClicked();
 
@@ -47,8 +47,6 @@ public class ClickEvent implements Listener {
                     p.sendMessage(ChatColor.BLUE + "[Server]" + ChatColor.RED + "You have stone weapons now.");
                     break;
             }
-
-
             e.setCancelled(true);
         }
 
