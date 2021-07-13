@@ -2,7 +2,7 @@
 
 EN:
 
-  Unique plugins from me
+  Unique plugins from me!
 
   Look this plugins for interest!
   
@@ -10,7 +10,7 @@ EN:
 
 CZ:
 
-  Unikátní pluginy ode mě
+  Unikátní pluginy ode mě!
   
   Zhlédněte tyto pluginy pro zajímavost!
   
